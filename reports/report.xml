@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="10" skipped="0" failures="0" errors="0" time="0.089966" timestamp="2022-01-24T19:34:00+00:00" hostname="f9ad0ccaf9e4">
+<properties>
+<property name="seed" value="41339"/>
+</properties>
+<testcase classname="spec.requests.weather_es_spec" name="WeatherControllerSpec spanish locale wind when parameter &quot;wind_speed&quot; is passed when wind speed is less than 8 returns &quot;Light breeze&quot; in Spanish" file="./spec/requests/weather_es_spec.rb" time="0.020568"></testcase>
+<testcase classname="spec.requests.weather_es_spec" name="WeatherControllerSpec spanish locale wind when parameter &quot;wind_speed&quot; is passed when wind speed is less than 3 returns &quot;No wind&quot; in Spanish" file="./spec/requests/weather_es_spec.rb" time="0.007353"></testcase>
+<testcase classname="spec.requests.weather_es_spec" name="WeatherControllerSpec spanish locale wind when parameter &quot;wind_speed&quot; is passed when wind speed is less than 20 returns &quot;Windy&quot; in Spanish" file="./spec/requests/weather_es_spec.rb" time="0.007031"></testcase>
+<testcase classname="spec.requests.weather_es_spec" name="WeatherControllerSpec spanish locale wind when parameter &quot;wind_speed&quot; is passed when wind speed is more or equal than 20 returns &quot;Very strong wind&quot; in Spanish" file="./spec/requests/weather_es_spec.rb" time="0.007182"></testcase>
+<testcase classname="spec.requests.weather_es_spec" name="WeatherControllerSpec spanish locale clouds when parameter &quot;clouds&quot; is passed when clouds percentage is more than 70 returns &quot;Cloudy&quot; in Spanish" file="./spec/requests/weather_es_spec.rb" time="0.006997"></testcase>
+<testcase classname="spec.requests.weather_es_spec" name="WeatherControllerSpec spanish locale clouds when parameter &quot;clouds&quot; is passed when clouds percentage is less or equal than 10 returns &quot;Clear weather&quot; in Spanish" file="./spec/requests/weather_es_spec.rb" time="0.007020"></testcase>
+<testcase classname="spec.requests.weather_es_spec" name="WeatherControllerSpec spanish locale clouds when parameter &quot;clouds&quot; is passed when clouds percentage is less or equal than 70 returns &quot;Partially cloudy&quot; in Spanish" file="./spec/requests/weather_es_spec.rb" time="0.007379"></testcase>
+<testcase classname="spec.requests.weather_es_spec" name="WeatherControllerSpec spanish locale temperature when parameter &quot;degrees&quot; is passed when degrees is below zero returns below zero text in Spanish" file="./spec/requests/weather_es_spec.rb" time="0.007150"></testcase>
+<testcase classname="spec.requests.weather_es_spec" name="WeatherControllerSpec spanish locale temperature when parameter &quot;degrees&quot; is passed when degrees is above zero returns above zero text in Spanish" file="./spec/requests/weather_es_spec.rb" time="0.008256"></testcase>
+<testcase classname="spec.requests.weather_es_spec" name="WeatherControllerSpec spanish locale temperature when parameter &quot;degrees&quot; is passed when degrees is zero returns above zero text in Spanish" file="./spec/requests/weather_es_spec.rb" time="0.008025"></testcase>
+</testsuite>
